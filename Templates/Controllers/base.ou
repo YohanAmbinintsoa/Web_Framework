@@ -1,0 +1,16 @@
+$$package$$ {package} $$line_end$$
+{imports}
+
+#route-annotation#
+#tag-annotation#
+$$public_encaps$$ $$class$$ {classname} {extendable} $$opening$$
+    {get_all_method}
+    
+    {get_by_id_method}
+
+    {insert_method}
+
+    {update_method}
+
+    {delete_method}
+$$closing$$

@@ -1,0 +1,34 @@
+{
+    "native":{
+        "langage":"java",
+        "extendable":false,
+        "baseclass":"",
+        "imports":[
+
+        ],
+        "annotable":false
+    },
+    "spring":{
+        "langage":"java",
+        "extendable":false,
+        "baseclass":"",
+        "imports":[
+            "org.springframework.stereotype.Controller",
+            "org.springframework.ui.Model",
+            "org.springframework.web.bind.annotation.GetMapping",
+            "org.springframework.web.bind.annotation.PathVariable",
+            "org.springframework.web.bind.annotation.PostMapping",
+            "org.springframework.web.bind.annotation.RequestParam"
+        ],
+        "annotable":true
+    },
+    "c#":{
+        "langage":"csharp",
+        "extendable":true,
+        "baseclass":"BaseController",
+        "imports":[
+
+        ],
+        "annotable":true
+    }
+}

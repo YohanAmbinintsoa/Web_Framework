@@ -1,0 +1,39 @@
+{
+    "java":
+    {
+        "package":"package",
+        "import":"import",
+        "class":"class",
+        "interface":"interface",
+        "extends":" extends",
+        "implements":"implements",
+        "line_end":";",
+        "opening":"{",
+        "closing":"}",
+        "public_encaps":"public",
+        "throwable":"throws Exception",
+        "exception":"throw new Exception(\"\")",
+        "return":"return",
+        "object_declaration":"new",
+        "annotation":"@{name}",
+        "file_extension":".java"
+    },
+    "csharp": {
+        "package": "namespace",
+        "import": "using",
+        "class": "class",
+        "interface": "interface",
+        "extends": ":",
+        "implements":",",
+        "throwable":"",
+        "line_end": ";",
+        "opening": "{",
+        "closing": "}",
+        "public_encaps":"public",
+        "exception": "throw new Exception(\"\")",
+        "return":"return",
+        "object_declaration":"new",
+        "annotation":"[{name}] ",
+        "file_extension":".cs"
+    }
+}

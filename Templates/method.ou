@@ -1,0 +1,5 @@
+#annotation#
+$$public_encaps$$ {returnType} {name}({args}) $$throwable$$ $$opening$$ 
+    $$exception$$ $$line_end$$
+$$closing$$
+

@@ -1,0 +1,12 @@
+{
+    "java":{
+        "route-annotation":"@RequestMapping(\"{model}\")",
+        "tag-annotation":"@RestController",
+        "GET":"GetMapping",
+        "GET_ID":"GetMapping(\"/?id=\")"
+    },
+    "csharp": {
+        "route-annotation": "[Route(\"{model}\")]",
+        "tag-annotation": "[ApiController]"
+    }
+}

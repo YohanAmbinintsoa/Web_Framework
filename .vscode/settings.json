@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "e:\\Dev_Utils\\java_Lib\\gson-2.8.2.jar"
+    ]
+}
